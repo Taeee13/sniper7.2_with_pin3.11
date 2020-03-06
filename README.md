@@ -3,11 +3,11 @@ This repository describes how to install sniper simulator version 7.2 with pin 3
 
 # Get sniper.tgz file and untar it.
 wget http://snipersim.org/download/1e63833bb3daeb64/packages/sniper-latest.tgz
-tar -zxvf sniper-latest.tgz
+\n tar -zxvf sniper-latest.tgz
 
 # Download pin3.11 and untar it.
 wget https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.11-97998-g7ecce2dac-gcc-linux.tar.gz
-tar -zxvf pin~.tar.gz
+\n tar -zxvf pin~.tar.gz
 
 # Copy the files in pin directory to pin_kit in sniper directory.
 cd $SNIPER_ROOT
