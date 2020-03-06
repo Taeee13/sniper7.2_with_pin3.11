@@ -1,4 +1,4 @@
-# sniper7.2_with_pin3.11
+# sniper7.2 with pin3.11
 This repository describes how to install sniper simulator version 7.2 with pin 3.11 without errors.
 
 # Get sniper.tgz file and untar it.
@@ -17,7 +17,7 @@ This repository describes how to install sniper simulator version 7.2 with pin 3
 # Patch sniper with ~.patch file (patch file can be found in this repo.)
 - patch -p1 < ./~.patch
 
-# add "using namespace std;" in the followings header files.
+# add *using namespace std;* in the followings header files.
 - sift/standalone_pin3.0/globals.h
 - sift/recorder/globals.h
 - frontend/pin-frontend/globals.h
