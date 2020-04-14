@@ -17,6 +17,8 @@ This repository describes how to install sniper simulator version 7.2 with pin 3
 # Patch sniper with ~.patch file (patch file can be found in this repo.)
 - patch -p1 < ./~.patch
 
+# Set PIN_ROOT, PIN_HOME, SNIPER_ROOT, GRAPHITE_ROOT for each directory in .bashrc
+
 # add *using namespace std;* in the following header files.
 - sift/standalone_pin3.0/globals.h
 - sift/recorder/globals.h
