@@ -12,7 +12,7 @@ This repository describes how to install sniper simulator version 7.2 with pin 3
 # Copy the files in pin directory to pin_kit in sniper directory.
 - cd $SNIPER_ROOT
 - mkdir pin_kit
-- cp /ORIGINAL/PIN/DIRECTORY/* ./pin_kit/
+- cp -r /ORIGINAL/PIN/DIRECTORY/* ./pin_kit/
 
 # Patch sniper with ~.patch file (patch file can be found in this repo.)
 - patch -p1 < ./~.patch
